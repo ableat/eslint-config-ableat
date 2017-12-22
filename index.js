@@ -57,9 +57,6 @@ module.exports = {
         "for-direction": [
             "error"
         ],
-        "id-length": [
-            "error"
-        ],
         "indent": [
             "error",
             4,
