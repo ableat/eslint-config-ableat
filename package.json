@@ -12,7 +12,7 @@
         "eslint",
         "eslintconfig"
     ],
-    "dependencies": {
+    "peerDependencies": {
         "eslint": ">= 4"
     },
     "repository": {
