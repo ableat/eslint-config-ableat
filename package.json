@@ -1,22 +1,22 @@
 {
-  "name": "eslint-config-ableat",
-  "version": "0.1.2",
-  "description": "The public eslint configuration for ableat",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "AAT Live Infrastructure Team <infrastructure@ableat.com>",
-  "license": "SEE LICENSE IN LICENSE.txt",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "peerDependencies": {
-    "eslint": ">= 4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ableat/eslint-config-ableat.git"
-  }
+    "name": "eslint-config-ableat",
+    "version": "0.1.2",
+    "description": "The public eslint configuration for ableat",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "AAT Live Infrastructure Team <infrastructure@ableat.com>",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "peerDependencies": {
+        "eslint": ">= 4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ableat/eslint-config-ableat.git"
+    }
 }
