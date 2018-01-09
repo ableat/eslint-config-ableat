@@ -12,11 +12,14 @@
         "eslint",
         "eslintconfig"
     ],
-    "peerDependencies": {
-        "eslint": ">= 4"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ableat/eslint-config-ableat.git"
+    },
+    "peerDependencies": {
+        "eslint": ">= 4"
+    },
+    "devDependencies": {
+        "eslint": "^4.15.0"
     }
 }
