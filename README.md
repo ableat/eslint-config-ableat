@@ -1,4 +1,44 @@
-# [Environments](https://eslint.org/docs/user-guide/configuring#specifying-environments)
+# eslint-config-ableat
+
+[![npm](https://img.shields.io/npm/v/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![downloads](https://img.shields.io/npm/dm/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![Run Status](https://api.shippable.com/projects/5a3d16bf3528320700a1019c/badge?branch=master)](https://app.shippable.com/github/ableat/eslint-config-ableat)
+
+## Usage
+
+1. Add this as a dev dependency to your `package.json`
+
+    ```bash
+    npm install --save-dev eslint-config-ableat
+    ```
+
+2. Add **ableat** to your eslint configuration file
+
+    **`.eslintrc`**
+
+    ```json
+    {
+        "extends": [
+            "ableat"
+        ]
+    }
+    ```
+
+    **`.eslintrc.yml`**
+
+    ```yaml
+    extends:
+      - ableat
+    ```
+3. (OPTIONAL) If you're using an editor like Atom or VSCode, you can install this configuration globally
+
+    ```bash
+    npm install -g eslint-config-ableat
+    ```
+
+---
+
+# All the Information!
+
+## [Environments](https://eslint.org/docs/user-guide/configuring#specifying-environments)
 
 ### ECMAScript 6 (es6)
 
@@ -8,15 +48,15 @@ Enable all ECMAScript 6 features except for modules. This also automatically set
 
 Adds the Node.js global variables and Node.js scoping
 
-# [Parser Options](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
+## [Parser Options](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
 
 ### Module Source Type
 
 Our code will mostly be written as ECMAScript modules.
 
-# Rules
+## Rules
 
-## Table of Contents
+### Table of Contents
 
 • [array-bracket-spacing](#array-bracket-spacing) • [arrow-parens](#arrow-parens) • [arrow-spacing](#arrow-spacing) • [brace-style](#brace-style) • [camelcase](#camelcase) • [curly](#curly) • [default-case](#default-case) • [dot-notation](#dot-notation) • [eol-last](#eol-last) • [eqeqeq](#eqeqeq) • [for-direction](#for-direction) • [indent](#indent) • [keyword-spacing](#keyword-spacing) • [linebreak-style](#linebreak-style) • [new-cap](#new-cap) • [newline-per-chained-call](#newline-per-chained-call) • [no-array-constructor](#no-array-constructor) • [no-confusing-arrow](#no-confusing-arrow) • [no-console](#no-console) • [no-dupe-class-members](#no-dupe-class-members) • [no-duplicate-imports](#no-duplicate-imports) • [no-else-return](#no-else-return) • [no-empty-function](#no-empty-function) • [no-eq-null](#no-eq-null) • [no-extra-parens](#no-extra-parens) • [no-fallthrough](#no-fallthrough) • [no-multi-spaces](#no-multi-spaces) • [no-multiple-empty-lines](#no-multiple-empty-lines) • [no-new-func](#no-new-func) • [no-new-object](#no-new-object) • [no-param-reassign](#no-param-reassign) • [no-useless-constructor](#no-useless-constructor) • [no-useless-escape](#no-useless-escape) • [no-useless-return](#no-useless-return) • [no-var](#no-var) • [no-whitespace-before-property](#no-whitespace-before-property) • [nonblock-statement-body-position](#nonblock-statement-body-position) • [object-curly-spacing](#object-curly-spacing) • [object-shorthand](#object-shorthand) • [padded-blocks](#padded-blocks) • [prefer-arrow-callback](#prefer-arrow-callback) • [prefer-const](#prefer-const) • [prefer-template](#prefer-template) • [quote-props](#quote-props) • [quotes](#quotes) • [semi](#semi) • [space-before-blocks](#space-before-blocks) • [space-in-parens](#space-in-parens) • [spaced-comment](#spaced-comment) • [template-curly-spacing](#template-curly-spacing) • [vars-on-top](#vars-on-top) • [yoda](#yoda) •
 
@@ -406,10 +446,10 @@ if (a) {
 // Correct
 if (foo) {
     //...
-} 
+}
 else if (bar) {
     //...
-} 
+}
 else {
     //...
 }
@@ -1098,7 +1138,7 @@ function foo() {
     if (condition) {
         bar();
         return
-    } 
+    }
     else {
         baz()
     }
@@ -1135,7 +1175,7 @@ function foo() {
     if (condition) {
         bar()
         return
-    } 
+    }
     else {
         baz()
     }
@@ -1222,7 +1262,7 @@ do bar(); while (foo)
 
 if (foo) { // block statements are always allowed with this rule
     bar()
-} 
+}
 else {
     baz()
 }
