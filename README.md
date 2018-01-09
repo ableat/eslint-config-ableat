@@ -1,6 +1,6 @@
 # eslint-config-ableat
 
-[![npm](https://img.shields.io/npm/v/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![downloads](https://img.shields.io/npm/dm/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![Run Status](https://api.shippable.com/projects/5a3d16bf3528320700a1019c/badge?branch=master)](https://app.shippable.com/github/ableat/eslint-config-ableat)
+[![npm](https://img.shields.io/npm/v/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-ableat) [![downloads](https://img.shields.io/npm/dm/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-ableat) [![Run Status](https://api.shippable.com/projects/5a3d16bf3528320700a1019c/badge?branch=master)](https://app.shippable.com/github/ableat/eslint-config-ableat)
 
 ## Usage
 
