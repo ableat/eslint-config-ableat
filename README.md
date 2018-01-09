@@ -1,6 +1,6 @@
-# eslint-config-ableat 
+# eslint-config-ableat
 
-[![npm](https://img.shields.io/npm/v/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![downloads](https://img.shields.io/npm/dm/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard)
+[![npm](https://img.shields.io/npm/v/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![downloads](https://img.shields.io/npm/dm/eslint-config-ableat.svg)](https://npmjs.org/package/eslint-config-standard) [![Run Status](https://api.shippable.com/projects/5a3d16bf3528320700a1019c/badge?branch=master)](https://app.shippable.com/github/ableat/eslint-config-ableat)
 
 ## Usage
 
@@ -13,7 +13,7 @@
 2. Add **ableat** to your eslint configuration file
 
     **`.eslintrc`**
-    
+
     ```json
     {
         "extends": [
@@ -21,9 +21,9 @@
         ]
     }
     ```
-    
+
     **`.eslintrc.yml`**
-    
+
     ```yaml
     extends:
       - ableat
