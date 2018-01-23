@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-ableat",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "The public eslint configuration for ableat",
     "main": "index.js",
     "scripts": {
@@ -18,6 +18,9 @@
     },
     "peerDependencies": {
         "eslint": ">= 4"
+    },
+    "dependencies": {
+        "eslint-plugin-promise": "^3.6.0"
     },
     "devDependencies": {
         "eslint": "^4.15.0"
