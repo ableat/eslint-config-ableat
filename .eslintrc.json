@@ -3,8 +3,12 @@
         "es6": true,
         "node": true
     },
+    "plugins": [
+        "promise"
+    ],
     "extends": [
-        "eslint:recommended"
+        "eslint:recommended",
+        "plugin:promise/recommended"
     ],
     "parserOptions": {
         "sourceType": "module"
@@ -163,6 +167,15 @@
         ],
         "prefer-template": [
             "error"
+        ],
+        "promise/no-nesting": [
+            "error"
+        ],
+        "promise/always-return": [
+            "off"
+        ],
+        "promise/avoid-new": [
+            "off"
         ],
         "quote-props": [
             "error",
