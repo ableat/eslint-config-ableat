@@ -7,14 +7,51 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.3] - 2017-09-07 (c77fd24af1c7723ccf4deaef0fd34856a6208fea)
-## [1.0.2] - 2017-09-07 (4a699fceec86801be8ca655a49121e899a893abc)
-## [1.0.1] - 2018-01-11 (fcd02f26b3aa6949e283ef619871ca112cfe7e0c)
-## [1.0.0] - 2018-01-09 (84a16d3807e0cdbd9c61a1a0f92c8313401b816b)
-## [0.1.2] - 2018-01-03 (b3f0da1e5dbfd6092657f8ea03a30b2ed5ed8dfc)
-## [0.1.1] - 2017-12-22 (bdcdebe8ac512a77c9c5df50f808269068c8ad9f)
+## [1.0.3] - 2018-01-23
+### Added
+- Support for ES6 Promises
+- `promise/no-nesting`: error
+- `promise/always-return`: off
+- `promise/avoid-new`: off
+### Fixed
+- Linting issues in package.json
 
-## 0.1.0 - 2017-12-22 (c80529a1b2191eaf4e34238b85336c6336bc4008)
+## [1.0.2] - 2018-01-11
+### Changed
+- .eslintrc is not a strict JSON file renamed to .eslintrc.json
+### Fixed
+- An issue where testing would fail because .eslintrc wasn't a JSON file
+
+## [1.0.1] - 2018-01-09
+### Fixed
+- README was pointing to the wrong npm module
+
+## [1.0.0] - 2018-01-09
+### Added
+- Support for nvm
+- Support for shippable
+- Linting test
+- Dev dependency of eslint for testing
+### Changed
+- Moved rules to .eslintrc file
+- index.js now points to .eslintrc file
+### Fixed
+- Better layout of README
+- Issue where package-lock.json was removed
+
+## [0.1.2] - 2018-01-03
+### Added
+- README with usage and description of rules
+### Fixed
+- Linting on package.json
+
+## [0.1.1] - 2017-12-22
+### Changed
+- eslint is now a peer dependency instead of a dependency
+### Removed
+- `id-length` rule
+
+## 0.1.0 - 2017-12-22
 ### Added
 - Created the ruleset for ableat
 
