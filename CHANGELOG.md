@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.4] - 2018-06-21
+### Added
+- Support for ES6 Classes
+- `class-methods-use-this`: error
+- `func-call-spacing`: error, never
+- `func-style`: error, declaration
+- `lines-between-class-members`: error, always
+- `no-class-assign`: error
+- `no-dupe-class-members`: error
+- Support for node 10.x
+###Fixed
+- An issue where CI wouldn't run tests
+### Removed
+- `new-cap`: error
+
 ## [1.0.3] - 2018-01-23
 ### Added
 - Support for ES6 Promises
@@ -55,7 +70,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Created the ruleset for ableat
 
-[Unreleased]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.3...HEAD
+[Unreleased]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.4...HEAD
+[1.0.4]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.0...v1.0.1
