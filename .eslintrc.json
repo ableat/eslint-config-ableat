@@ -41,6 +41,9 @@
                 "properties": "never"
             }
         ],
+        "class-methods-use-this": [
+            "error"
+        ],
         "curly": [
             "error",
             "multi-line"
@@ -61,6 +64,14 @@
         "for-direction": [
             "error"
         ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "func-style": [
+            "error",
+            "declaration"
+        ],
         "indent": [
             "error",
             4,
@@ -75,8 +86,9 @@
             "error",
             "unix"
         ],
-        "new-cap": [
-            "error"
+        "lines-between-class-members": [
+            "error",
+            "always"
         ],
         "newline-per-chained-call": [
             "error"
@@ -84,11 +96,17 @@
         "no-array-constructor": [
             "error"
         ],
+        "no-class-assign": [
+            "error"
+        ],
         "no-confusing-arrow": [
             "error"
         ],
         "no-console": [
             "off"
+        ],
+        "no-dupe-class-members": [
+            "error"
         ],
         "no-else-return": [
             "error"
