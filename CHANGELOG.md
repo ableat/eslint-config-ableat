@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-07-12
+### Added
+- Support for ESLint 5
+- Support for `ecmaVersion: 2018`
+
 ## [1.0.4] - 2018-06-21
 ### Added
 - Support for ES6 Classes
@@ -70,7 +75,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Created the ruleset for ableat
 
-[Unreleased]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.4...HEAD
+[Unreleased]: https://github.com/ableat/eslint-config-ableat/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.4...v1.1.0
 [1.0.4]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/ableat/eslint-config-ableat/compare/v1.0.1...v1.0.2
